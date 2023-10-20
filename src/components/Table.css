@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background: #FBFDFF;
+    
+}
+
+/* tableStyles.css */
+
+/* Supprime les bordures des cellules */
+.react-bootstrap-table table,
+.react-bootstrap-table th,
+.react-bootstrap-table td {
+  border: none;
+}
+.react-bootstrap-table table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: white
+    
+}
+.react-bootstrap-table th, .react-bootstrap-table td {
+    border: none;     
+}
+/* fin de Supprime les bordures des cellules */
+
+/*icon form*/
+.for{
+    border: none;
+    background: none;
+    height: 5px;
+    font-size: 12px;
+}
+.header{
+    border: none;  
+ }
+ 
+/* fin icon form*/
+
+/* debut style de la partie pagination*/
+.pagination {
+    display: flex;
+    padding-left: 15px;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.row>* {
+    flex-shrink: 0;
+    max-width: 50%;
+    padding-right: calc(var(--bs-gutter-x) * .6);
+    padding-left: calc(var(--bs-gutter-x) * .6);
+    margin-top: var(--bs-gutter-y);
+}
+.btn-secondary {
+    --bs-btn-color: #0e0c0c;
+    --bs-btn-bg: white ;
+    --bs-btn-border-color: #151516;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #f1f4fa;
+    --bs-btn-hover-border-color: #565e64;   
+    
+}
+/* fin style de la partie pagination*/  
+
+
+/* debut style du partie de NavTab*/
+
+.liste{
+    border: none;
+    background: none;
+}
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background: none;
+    border: 0px solid transparent;
+    color: #666666;  
+}
+.nav-tabs .nav-link:hover {
+    color: #2D9CDB;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #2D9CDB;
+    background-color: #FBFDFF;
+}
+/* fin style du partie de NavTab*/
+
+
+/*debut style du partie des button*/
+
+.button.active {
+    cursor: pointer;
+    user-select: none;
+}
+.botton {
+    border: 1px solid #2D9CDB;
+    color: #56CCF2;
+    border-radius: 14px;
+}
+.element.style {
+    background-color: rgb(45, 156, 219);
+    color: white;
+    border: 2px solid rgb(45, 156, 219);
+}
+.btn:active {
+  background-color: none;
+}
+.btn:hover {
+   color: none;
+}
+
+.btn { 
+ --bs-btn-hover-border-color: #56CCF2; 
+ --bs-btn-hover-color: #56CCF2; 
+ --bs-btn-box-shadow: inset  #56CCF2;   
+}
+
+/* fin style du partie des button*/
+
+
+/* debut style du partie du button d'Export to CSV*/
+.btn3{
+    justify-content: end;
+    border: 1px solid;
+}
+ .btn-primar{
+    margin: auto;
+    width: 15%;
+    margin-right: 12px;
+    border-radius: 14px;
+    background-color: #56CCF2;
+    text-decoration: none;
+    font-size: 14px;
+    
+ }
+
+ .btn-primar:hover{
+    background-color: #56CCF2; 
+ }
+ /* fin style du partie du button d'Export to CSV*/
+
+ .table>thead {
+    vertical-align: bottom;
+    font-size: 14px;
+    color: #2D9CDB;
+}
+
+ .table {
+    --bs-table-color-type: initial;
+    --bs-table-bg-type: initial;
+    --bs-table-color-state: initial;
+    --bs-table-bg-state: initial;
+    --bs-table-color: var(--bs-body-color);
+    --bs-table-bg: var(--bs-body-bg);
+    --bs-table-border-color: var(--bs-border-color);
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: var(--bs-body-color);
+    --bs-table-striped-bg: #FBFDFF;;
+    --bs-table-active-color: var(--bs-body-color);
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: var(--bs-body-color);
+    --bs-table-hover-bg: #FBFDFF;
+    width: 100%;
+    margin-bottom: 1rem;
+    vertical-align: top;
+    border-color: var(--bs-table-border-color);
+}
+
+.image {
+   width: 40px;
+   height: 40px;
+   border-radius: 50% 
+}
+
+
+
+/*.header{
+    padding: 2.5em 5%;
+   
+    display: grid;
+    gap: 1.5em;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.nav_list{
+    padding: 10px;
+    list-style: none;
+    margin: 0 auto;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2.5em;
+
+}
+.btn2{
+   margin-left: 75%;
+    background-color: #2383C4;
+    border-radius: 14px;
+
+    
+}
+.nav_link{
+    color: rgb(163, 153, 141);
+    text-decoration: none;
+   
+    
+}
+@media (min-width:320px) {
+    .container {
+        padding-left: 22px;
+       
+    }
+    
+}
+
+
+.bt{
+    border: 2px solid #2D9CDB;
+    color: #2D9CDB;
+    width: 112px;
+    height: 39px;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-left: 12%;
+    
+}
+.bt:hover{
+    background-color: #2383C4;
+    color: white;   
+}
+.form{
+    border-radius: 5px;  
+}*/
+
+
+

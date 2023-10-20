@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background: #FBFDFF;
+    
+}
+
+/* tableStyles.css */
+
+/* Supprime les bordures des cellules */
+.react-bootstrap-table table,
+.react-bootstrap-table th,
+.react-bootstrap-table td {
+  border: none;
+}
+.react-bootstrap-table table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: white
+    
+}
+.react-bootstrap-table th, .react-bootstrap-table td {
+    border: none;     
+}
+/* fin de Supprime les bordures des cellules */
+
+/*icon form*/
+.for{
+    border: none;
+    background: none;
+    height: 5px;
+    font-size: 12px;
+}
+.header{
+    border: none;  
+ }
+ 
+/* fin icon form*/
+
+/* debut style de la partie pagination*/
+.pagination {
+    display: flex;
+    padding-left: 15px;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.row>* {
+    flex-shrink: 0;
+    max-width: 50%;
+    padding-right: calc(var(--bs-gutter-x) * .6);
+    padding-left: calc(var(--bs-gutter-x) * .6);
+    margin-top: var(--bs-gutter-y);
+}
+.btn-secondary {
+    --bs-btn-color: #0e0c0c;
+    --bs-btn-bg: white ;
+    --bs-btn-border-color: #151516;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #f1f4fa;
+    --bs-btn-hover-border-color: #565e64;   
+    
+}
+/* fin style de la partie pagination*/  
+
+
+/* debut style du partie de NavTab*/
+
+.liste{
+    border: none;
+    background: none;
+}
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background: none;
+    border: 0px solid transparent;
+    color: #666666;  
+}
+.nav-tabs .nav-link:hover {
+    color: #2D9CDB;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #2D9CDB;
+    background-color: #FBFDFF;
+}
+/* fin style du partie de NavTab*/
+
+
+/*debut style du partie des button*/
+
+.button.active {
+    cursor: pointer;
+    user-select: none;
+}
+.botton {
+    border: 1px solid #2D9CDB;
+    color: #56CCF2;
+    border-radius: 14px;
+}
+.element.style {
+    background-color: rgb(45, 156, 219);
+    color: white;
+    border: 2px solid rgb(45, 156, 219);
+}
+.btn:active {
+  background-color: none;
+}
+.btn:hover {
+   color: none;
+}
+
+.btn { 
+ --bs-btn-hover-border-color: #56CCF2; 
+ --bs-btn-hover-color: #56CCF2; 
+ --bs-btn-box-shadow: inset  #56CCF2;   
+}
+
+/* fin style du partie des button*/
+
+
+/* debut style du partie du button d'Export to CSV*/
+
+
+ .btn-ajout {
+    margin: auto;
+    width: 15%;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    
+ }
+
+ /* fin style du partie du button d'Export to CSV*/
+ .form-control {
+    display: block;
+    width: 80%;
+    font-size: 10px;
+   /* font-weight: 1;*/
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+
+/* styles.css (ou votre fichier CSS) */
+
+ .table {
+    --bs-table-bg: var(--bs-body-bg);
+    --bs-table-border-color: var(--bs-border-color);
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: var(--bs-body-color);
+    --bs-table-striped-bg: #FBFDFF;;
+    --bs-table-active-color: var(--bs-body-color);
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: var(--bs-body-color);
+    --bs-table-hover-bg: #FBFDFF;;
+    width: 100%;
+    margin-bottom: 1rem;
+    vertical-align: top;
+    border-color: #dee2e6;
+}
+.table>thead {
+    vertical-align: bottom;
+    font-size: 14px;
+    color: #2D9CDB;
+}
+
+
+.image {
+   width: 40px;
+   height: 40px;
+   border-radius: 50% 
+}
+
+
+
+/*.header{
+    padding: 2.5em 5%;
+   
+    display: grid;
+    gap: 1.5em;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.nav_list{
+    padding: 10px;
+    list-style: none;
+    margin: 0 auto;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2.5em;
+
+}
+.btn2{
+   margin-left: 75%;
+    background-color: #2383C4;
+    border-radius: 14px;
+
+    
+}
+.nav_link{
+    color: rgb(163, 153, 141);
+    text-decoration: none;
+   
+    
+}
+@media (min-width:320px) {
+    .container {
+        padding-left: 22px;
+       
+    }
+    
+}
+
+
+.bt{
+    border: 2px solid #2D9CDB;
+    color: #2D9CDB;
+    width: 112px;
+    height: 39px;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-left: 12%;
+    
+}
+.bt:hover{
+    background-color: #2383C4;
+    color: white;   
+}
+.form{
+    border-radius: 5px;  
+}*/
+
+
+.alert {
+    position: fixed;
+    top: 0;
+    background-color: white; /* Couleur de fond de l'alerte */
+    padding: 0px;
+    margin: 25px;
+    z-index: 999; /* Assurez-vous que l'alerte est au-dessus de tout le reste */
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5); /* Ombre pour l'effet de profondeur */
+  }
+  
+  /* Style pour le bouton Valider */
+  .alert .btn-ajout {
+    background-color: #56CCF2;; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    border: none;
+    width: auto;
+    
+    cursor: pointer;
+  }
+  .alert .btn-ajoute{
+    background-color: #56CCF2;; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    border: none;
+    width: auto;
+    font-size: 14px;
+  }
+  .alert .btn-ajout:hover {
+    background-color: #56CCF2; /* Couleur de fond du bouton au survol */
+  }
+  .form-label{
+    margin-right: 55%;
+    font-size: 12px;
+  }
+  .title{
+    margin-right: 70%;
+    color: #2383C4;
+  }
+.butt{
+    width: 300%;
+}
+.titre{
+    background-color: #2383C4;
+}
